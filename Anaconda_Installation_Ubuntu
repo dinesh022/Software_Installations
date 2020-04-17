@@ -1,0 +1,59 @@
+######## Anaconda Installation in ubuntu ####################
+
+
+1. Download latest version of Anaconda installer(Anaconda3-2020.02-Linux-x86_64.sh)
+
+2. Verify DataIntegrity of the Installer
+   $ sha256sum Anaconda3-2020.02-Linux-x86_64.sh
+   You will get out like this (2b9f088b2022edb474915d9f69a803d6449d5fdb4c303041f60ac4aefcc208bb  Anaconda3-2020.02-Linux-x86_64.sh)
+   Verify the code is same from website(https://docs.anaconda.com/anaconda/install/hashes/Anaconda3-2020.02-Linux-x86_64.sh-hash/)
+
+3. Run Anaconda Script
+   $ bash Anaconda3-2020.02-Linux-x86_64.sh
+
+   It will print below content
+   Welcome to Anaconda3 2020.02
+
+   In order to continue the installation process, please review the license
+   agreement.
+   Please, press ENTER to continue
+   >>> 
+   After ENTER you will get the license terms and type YES
+
+4. Anaconda3 will now be installed into this location:
+   /home/darkknight/anaconda3
+
+   - Press ENTER to confirm the location
+   - Press CTRL-C to abort the installation
+   - Or specify a different location below
+
+   Press Enter
+
+5. Preparing transaction: done
+   Executing transaction: done
+   installation finished.
+   Do you wish the installer to initialize Anaconda3
+   by running conda init?
+
+   Press YES
+
+   Thank you for installing Anaconda3!
+
+
+6. Activate Installation
+   $  source ~/.bashrc (Generally terminal starts with non interactive login. This command is needed to login bash)
+
+7. conda (used to manage environments of python, Anaconda)
+   conda list
+   conda info
+   conda update conda
+   conda update anaconda
+
+########################################################################################################
+
+
+
+
+   
+
+
